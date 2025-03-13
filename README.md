@@ -11,7 +11,8 @@ This project is an **Laravel-based** inventory management system that allows you
 - Responsive design with **Tailwind CSS**.
 - Built with **Laravel Jetstream** and **Livewire** for authentication, user management, and interactive UI components.
 
-![dashboard](https://github.com/user-attachments/assets/d100ee99-cd7f-4388-8d51-661beef44cee)
+![dashboard](https://github.com/user-attachments/assets/51024722-d5fa-4b5c-8be3-23ffc43cf7a3)
+
 
 
 ## 📌 Requirements
