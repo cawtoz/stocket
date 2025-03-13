@@ -223,7 +223,7 @@
 <section class="max-w-7xl mx-auto p-6 mt-12 text-center" data-aos="fade-up">
     <h2 class="text-3xl font-bold text-gray-800">Empieza con Stocket</h2>
     <p class="mt-4 text-lg text-gray-600">
-        ¿Listo para tomar el control de tu inventario? Explora el dashboard o revisa el código en GitHub.
+        ¿Listo para tomar el control de tu inventario? Explora el dashboard o revisa el código en <a href="http://github.com/cawtoz" class="text-indigo-500 hover:tex-indigo-600">GitHub.</a>
     </p>
     <div class="mt-8 space-x-4">
         @if (Route::has('login'))
@@ -248,7 +248,7 @@
 <!-- FOOTER -->
 <footer class="mt-16 py-6 bg-gray-200" data-aos="fade-up">
     <div class="max-w-7xl mx-auto text-center text-gray-700">
-        <p class="text-sm">&copy; {{ date('Y') }} Stocket. Todos los derechos reservados.</p>
+        <p class="text-sm">&copy; {{ date('Y') }} Stocket. <span class="text-indigo-500">cawtoz</span></p>
     </div>
 </footer>
 
