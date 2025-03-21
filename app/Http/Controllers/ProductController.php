@@ -31,11 +31,10 @@ class ProductController extends Controller
     {
         $request->validate([
             'name'        => 'required|string|max:255',
-            'stock'       => 'required|integer|min:0',
             'description' => 'nullable|string',
         ]);
 
-        Product::create($request->only(['name', 'stock', 'description']));
+        Product::create($request->only(['name', 'description']));
         return redirect()->route('products.index')->with('success', 'Producto creado exitosamente.');
     }
 
@@ -62,11 +61,10 @@ class ProductController extends Controller
     {
         $request->validate([
             'name'        => 'required|string|max:255',
-            'stock'       => 'required|integer|min:0',
             'description' => 'nullable|string',
         ]);
 
-        $product->update($request->only(['name', 'stock', 'description']));
+        $product->update($request->only(['name', 'description']));
         return redirect()->route('products.index')->with('success', 'Producto actualizado exitosamente.');
     }
 

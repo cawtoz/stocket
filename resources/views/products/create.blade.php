@@ -19,13 +19,6 @@
                             @enderror
                         </div>
                         <div class="mb-4">
-                            <label for="stock" class="block font-medium text-sm text-gray-700">{{ __('Stock') }}</label>
-                            <input type="number" name="stock" id="stock" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-400 focus:border-gray-400">
-                            @error('stock')
-                            <span class="text-red-500 text-xs">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="mb-4">
                             <label for="description" class="block font-medium text-sm text-gray-700">{{ __('Descripción') }}</label>
                             <textarea name="description" id="description" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-400 focus:border-gray-400"></textarea>
                             @error('description')
